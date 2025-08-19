@@ -1,0 +1,31 @@
+.show input{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.show{
+    margin-top: 25px;
+}
+
+
+.buttons button{
+    border-radius: 10px;
+}
+.calc{
+    background-color: black;
+    margin-top: 250px;
+    height: 300px;
+    width: 270px;
+    border-radius: 10px;
+    margin-left: 600px;
+    
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,30px);
+    gap: 25px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
