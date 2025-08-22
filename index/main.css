@@ -1,0 +1,22 @@
+*{
+    background-image:url(https://dodo.quantumnique.tech/assets/images/user/login.svg ) ;
+    background-repeat: no-repeat;
+    background-position: 300px 200px;
+    background-size: 400px;
+    
+    
+}
+body{
+    margin: 300px 900px;
+}
+.button button{
+    padding:0px 70px;
+    background-color: rgb(121, 151, 231);
+    
+}
+.{
+
+    background-color: black;
+    
+}
+
