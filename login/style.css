@@ -1,0 +1,22 @@
+.details{
+    background-color:rgb(69, 168, 168);
+    width: 225px;
+    margin-left: 500px;
+    margin-top: 200px;
+    height: 265px;
+    border-radius: 10px;
+}
+
+.lg{
+      padding-top: 20px;
+}
+p{
+    padding-left: 20px;
+}
+.fp{
+    font-size: smaller;
+    padding-left: 25px;
+}
+.result{
+    padding-right: 20px;
+}
