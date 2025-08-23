@@ -1,0 +1,122 @@
+.upper{
+    background-color: bisque;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    border-radius:50% 50% 15% 15%;
+    margin-top: 100px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.lefte{
+    height:15px;
+    width:15px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: 50px;
+}
+.righte{
+    height:15px;
+    width:15px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: 50px;
+}
+.eyes{
+    display:flex;
+    justify-content: space-around;
+}
+.middle{
+
+    display: flex;
+    justify-content: space-around;
+    width:260px;
+    margin-left: 551px;
+    margin-top: 10px;
+}
+.lefth{
+    height:100px;
+    width:25px;
+    background-color:bisque;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.middleb{
+    height:175px;
+    width:175px;
+    background-color: bisque;
+    border-radius: 10%;
+}
+.righth{
+    height:100px;
+    width:25px;
+    background-color:bisque;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+.leftl{
+    height:100px;
+    width:25px;
+    background-color:bisque;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 620px;
+}
+.rightl{
+    height:100px;
+    width:25px;
+    background-color:bisque;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 620px;
+}
+.lower{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.robo:hover .upper,
+.robo:hover .leftl,
+.robo:hover .rightl,
+.robo:hover .middleb{
+    background-color: burlywood;
+}
+.robo:hover .upper{
+    height: 150px;
+    width: 150px;
+    /*padding-left: 50px;*/
+    transition: padding-left 2s ease-in-out;
+    animation-name: headp;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+@keyframes headp{
+    0%{
+        padding-right: 50px;
+        transform: rotate(5deg);
+    }
+    5%{
+        padding-left: 50px;
+    }
+}
+.robo:hover .middle{
+
+    background-color: cadetblue;
+}
+.robo:hover .lefth{
+    transition: padding-left 2s ease-in-out;
+    animation-name: leftha;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+@keyframes leftha{
+    100%{
+        transform: rotate(180deg);
+        margin-left: 5px;
+    }
+}
+
+
